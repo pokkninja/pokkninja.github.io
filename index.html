@@ -13,17 +13,29 @@
     }
     
     h1 {
-        font: 50px / 1 "Open Sans";
+        font: 90px / 1 "Open Sans";
         margin: 200px auto;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+    
+    span {
+      display: block;
+    }
+    
+    span + span {
+      display: inline-block;
+      border: 1px solid black;
+      border-width: 0 4px;
+      font-size: 0.6em;
+      padding: 0 10px;
+      letter-spacing: normal;
+      text-transform: lowercase;
     }
 </style>
     
 </head>
 <body>
-    <h1>Pokk the Ninja</h1>
+    <h1><span>Pokk</span> <span>the Ninja</span></h1>
 </body>
 </html>
-
-
-
-
