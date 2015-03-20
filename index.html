@@ -11,31 +11,31 @@
       blue: #8CA8A9
       black: #272725
       white: #EEDDCD
-
+      font-family: 'Muli', sans-serif;
+      font-family: 'Ovo', serif;
     */
 
-  font-family: 'Muli', sans-serif;
-    font-family: 'Ovo', serif;
-
-
-    html, body {
+    html, body, div {
       height: 100%;
       margin: 0;
     }
 
-    body {
+    div {
       background: url('background.jpg');
       background-size: cover;
       text-align: center;
       color: #6A7378;
+      -webkit-filter: grayscale(0.5);
+      filter: grayscale(0.5);
     }
 
     h1 {
         position: fixed;
         top: 50px;
         right: 50px;
-        font: 30px / 1  'Ovo', serif;
+        font: normal 36px / 1  'Ovo', serif;
         margin: 0;
+        text-align: center;
     }
 
     span {
@@ -44,16 +44,18 @@
 
     small {
       display: inline-block;
-      border: 1px solid #6A7378;
+      border: 1px solid #8CA8A9;
       border-width: 0 2px;
-      font-size: 0.6em;
+      font-size: .416666667em;
       padding: 0 10px;
       font-family: 'Muli', sans-serif;
+      color: #8CA8A9;
     }
 </style>
 
 </head>
 <body>
+    <div></div>
     <h1>
       <span>Pokk</span>
       <small>the ninja</small>
