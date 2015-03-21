@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Pokk the Ninja</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link href='//fonts.googleapis.com/css?family=Ovo|Muli' rel='stylesheet' type='text/css'>
-<style>
+  <meta charset="utf-8">
+  <title>Pokk the Ninja</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href='//fonts.googleapis.com/css?family=Ovo|Muli' rel='stylesheet' type='text/css'>
+  <style>
     /*
       grey: #6A7378
       blue: #8CA8A9
@@ -15,11 +16,12 @@
       font-family: 'Ovo', serif;
     */
 
-    html, body, div {
+    html,
+    body,
+    div {
       height: 100%;
       margin: 0;
     }
-
     div {
       background: url('background.jpg');
       background-size: cover;
@@ -28,37 +30,43 @@
       -webkit-filter: grayscale(0.5);
       filter: grayscale(0.5);
     }
-
+    main {
+      position: fixed;
+      top: 50px;
+      right: 50px;
+      text-align: center;
+      font-size: 12px;
+      color: #6A7378;
+    }
+    h1,
+    h2 {
+      margin: 0 0 20px;
+    }
     h1 {
-        position: fixed;
-        top: 50px;
-        right: 50px;
-        font: normal 36px / 1  'Ovo', serif;
-        margin: 0;
-        text-align: center;
+      font: normal 3em / 1 'Ovo', serif;
     }
-
-    span {
-      display: block;
-    }
-
-    small {
+    h2 {
       display: inline-block;
       border: 1px solid #8CA8A9;
       border-width: 0 2px;
-      font-size: .416666667em;
+      font: normal 1.2em / 1 'Muli', sans-serif;
       padding: 0 10px;
-      font-family: 'Muli', sans-serif;
       color: #8CA8A9;
     }
-</style>
-
+    p {
+      margin: 0;
+    }
+  </style>
 </head>
+
 <body>
-    <div></div>
-    <h1>
-      <span>Pokk</span>
-      <small>the ninja</small>
-    </h1>
+  <div></div>
+  <main>
+    <h1>Pokk & the ninja</h1>
+    <h2>pushing the pixels</h2>
+    <p>pokk @ freenode</p>
+    <p>pokkninja @ github</p>
+  </main>
 </body>
+
 </html>
